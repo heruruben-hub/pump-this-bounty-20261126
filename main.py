@@ -84,6 +84,7 @@ def main() -> None:
     print(
         f"Wrote {len(text)} characters ({len(encoded)} bytes) to {OUTPUT_PATH}"
     )
+    print(f"Entry: {text}")
 
 
 if __name__ == "__main__":
